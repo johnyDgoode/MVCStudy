@@ -11,7 +11,7 @@
 @interface Car : NSObject
 @property(nonatomic)int fuel;
 @property(nonatomic)int speed;
-@property(nonatomic,strong)NSString *name;
+@property(nonatomic,copy)NSString *name;
 
 -(void)go;
 -(void)stop;
