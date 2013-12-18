@@ -53,7 +53,7 @@
     [self.car go];
 }
 
--(IBAction)breake:(id)sender{
+-(IBAction)brake:(id)sender{
     
     [self.car stop];
     self.carView.center = self.view.center;

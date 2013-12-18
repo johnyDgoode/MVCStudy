@@ -13,10 +13,10 @@
 @property(nonatomic,weak)IBOutlet UILabel *speedLabel;
 @property(nonatomic,weak)IBOutlet UILabel *fuelLabel;
 @property(nonatomic,weak)IBOutlet UIButton *accelButton;
-@property(nonatomic,weak)IBOutlet UIButton *breakeButton;
+@property(nonatomic,weak)IBOutlet UIButton *brakeButton;
 @property(nonatomic,weak)IBOutlet UIButton *chargeButton;
 
 -(IBAction)accel:(id)sender;
--(IBAction)breake:(id)sender;
+-(IBAction)brake:(id)sender;
 -(IBAction)charge:(id)sender;
 @end
