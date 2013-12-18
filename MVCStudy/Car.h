@@ -17,5 +17,4 @@
 -(void)stop;
 -(void)charge;
 -(id)initWithFuel:(int)fuel carName:(NSString*)carName;
--(void)showName;
 @end

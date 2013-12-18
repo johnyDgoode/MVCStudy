@@ -34,8 +34,4 @@
     self.speed = 0;
 }
 
--(void)showName{
-    NSLog(@"my name is : %@",self.name);
-}
-
 @end
